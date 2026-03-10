@@ -10,7 +10,7 @@ from schemas import User
 from models import User as DBUser
 from database import get_db
 
-SECRET_KEY = "your-secret-key"  # ← замените на настоящий секретный ключ
+SECRET_KEY = "2a9ac1463f85ffb09dd2c448bc0dda28d461d59f913ff70ec608d19841c3c35b"  # ← замените на настоящий секретный ключ
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
