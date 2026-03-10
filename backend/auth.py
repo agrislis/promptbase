@@ -4,7 +4,9 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from datetime import datetime, timedelta
 from sqlalchemy.orm import Session
-from . import models, schemas
+from models import ...
+from schemas import ...
+from auth import ...
 from database import get_db
 
 SECRET_KEY = "your-secret-key"  # Замените на реальный секрет в production
