@@ -1,6 +1,8 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import or_
-from . import models, schemas, auth
+from models import ...
+from schemas import ...
+from auth import ...
 
 def create_user(db: Session, user: schemas.UserCreate):
     hashed_password = auth.get_password_hash(user.password)
