@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000',  // Измените на production URL после деплоймента
+  baseURL: 'https://promptbase-backend.vercel.app/',  // Измените на production URL после деплоймента
 });
 
 api.interceptors.request.use(config => {
